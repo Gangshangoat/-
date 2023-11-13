@@ -1,0 +1,8 @@
+[build]
+  command = "npm run build" # 这里定义构建命令，根据你的项目来设置
+  publish = "dist" # 这里定义你项目的发布目录
+
+[[redirects]]
+  from = "/old-path"
+  to = "/new-path"
+  status = 301

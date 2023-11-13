@@ -1,0 +1,26 @@
+{
+  "name": "your-app-name",
+  "version": "1.0.0",
+  "description": "Your app description",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "serve": "vue-cli-service serve",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "your-build-script",
+    "lint": "your-lint-script"
+  },
+  "author": "Your Name",
+  "license": "ISC",
+  "dependencies": {
+    "@vue/cli-service": "^3.3.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "pg": "^8.11.3",
+    "vue": "^3.3.4",
+    "vue-router": "^4.2.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
